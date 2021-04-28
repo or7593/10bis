@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 148.342 s <<< FAILURE! - in TestSuite
+tests.SanityTest.GoingToOrderPage  Time elapsed: 7.271 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at tests.SanityTest.GoingToOrderPage(SanityTest.java:122)
+

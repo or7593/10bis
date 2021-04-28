@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.MinimumOrderError">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="MininumOrderTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- tests.MinimumOrderError -->
+      <class name="tests.CareerTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="ClickOnJobField"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- tests.CareerTest -->
+      <class name="tests.SanityTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="GoingToOrderPage"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- tests.SanityTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

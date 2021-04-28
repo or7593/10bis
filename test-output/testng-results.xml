@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-27T20:12:59 IDT" name="Default suite" finished-at="2021-04-27T20:13:40 IDT" duration-ms="41475">
+    <groups>
+    </groups>
+    <test started-at="2021-04-27T20:12:59 IDT" name="Default test" finished-at="2021-04-27T20:13:40 IDT" duration-ms="41475">
+      <class name="tests.SanityTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.SanityTest@3daa422a]" started-at="2021-04-27T20:12:59 IDT" name="beforeClass" finished-at="2021-04-27T20:13:07 IDT" duration-ms="8502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.SanityTest@3daa422a]" started-at="2021-04-27T20:13:07 IDT" name="beforeMethod" finished-at="2021-04-27T20:13:07 IDT" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.SanityTest.GoingToRestaurant() throws java.lang.InterruptedException,java.io.IOException,javax.xml.parsers.ParserConfigurationException,org.xml.sax.SAXException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="GoingToRestaurant()[pri:1, instance:tests.SanityTest@3daa422a]" started-at="2021-04-27T20:13:07 IDT" name="GoingToRestaurant" description="Going to restaurant page" finished-at="2021-04-27T20:13:33 IDT" duration-ms="25928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoingToRestaurant -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.SanityTest@3daa422a]" started-at="2021-04-27T20:13:33 IDT" name="afterMethod" finished-at="2021-04-27T20:13:34 IDT" duration-ms="830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GoingToRestaurant status=SUCCESS method=SanityTest.GoingToRestaurant()[pri:1, instance:tests.SanityTest@3daa422a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="GoingToOrderPage()[pri:2, instance:tests.SanityTest@3daa422a]" started-at="2021-04-27T20:13:34 IDT" name="GoingToOrderPage" description="Going to order page" finished-at="2021-04-27T20:13:38 IDT" duration-ms="4419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoingToOrderPage -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.SanityTest@3daa422a]" started-at="2021-04-27T20:13:34 IDT" name="beforeMethod" finished-at="2021-04-27T20:13:34 IDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.SanityTest.GoingToOrderPage() throws java.lang.InterruptedException,java.io.IOException,javax.xml.parsers.ParserConfigurationException,org.xml.sax.SAXException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.SanityTest@3daa422a]" started-at="2021-04-27T20:13:38 IDT" name="afterMethod" finished-at="2021-04-27T20:13:39 IDT" duration-ms="246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GoingToOrderPage status=SUCCESS method=SanityTest.GoingToOrderPage()[pri:2, instance:tests.SanityTest@3daa422a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.SanityTest@3daa422a]" started-at="2021-04-27T20:13:39 IDT" name="afterClass" finished-at="2021-04-27T20:13:40 IDT" duration-ms="1490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.SanityTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
